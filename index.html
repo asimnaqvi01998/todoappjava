@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        margin-top: 80px;
+        text-align: center;
+        background-color: skyblue;
+   }
+    .btn
+    {
+        background-color: brown;
+        color: chartreuse;
+        margin-left: 180px;
+    }
+     body
+    {
+        border: 3px solid palevioletred;
+        margin-left: 430px;
+        margin-right: 430px;
+        height: 500px;
+        color:Red;
+        font-size: 20px;
+    } 
+
+    #todo-item
+    {
+        margin-top: 8px;
+        background-color: powderblue;
+        border:3px solid palevioletred;
+        height: 30px;
+    }
+    #todo-item:hover
+    {
+        background-color:palevioletred;
+        border:3px solid red;
+    }
+    button
+    {
+        background-color: yellow;
+        height: 28px;
+        border: 2px solid palevioletred;
+        border-radius: 30px;
+        color: green;
+
+    }
+
+    button:hover
+    {
+        background-color: red;
+        border:3px solid purple
+    }
+    
+    #list
+    {
+        list-style: none;
+    }
+    </style>
+<body>
+    
+    <div id ="asim">
+        <h2 style=" color: red"><b><a href="#">TODO APP</a></b></h2>
+        <input placeholder="Enter todo item" type="text" id="todo-item">
+        <button onclick="ontodo()"><b>Add item</b></button>
+        <button onclick="addtodo()"><b>Delete all</b></button>
+    </div>
+
+    <div>
+        <ul id="list">
+        
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
